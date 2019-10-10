@@ -56,5 +56,36 @@ properties are
 - Capacity => used to declare the size of the string builder.
 
 ## String Formats
-## String Interpolations
+## String Interpolations 
+
 C# 6 introduces string interpolations. Where we prefix $"" on strings  Which removed the need to call. String.Format(). but the code will get translated to the String.Format() style.
+
+## Escape Sequence
+Escape sequence	Character name	Unicode encoding
+\'	Single quote	0x0027
+\"	Double quote	0x0022
+\\	Backslash	0x005C
+\0	Null	0x0000
+\a	Alert	0x0007
+\b	Backspace	0x0008
+\f	Form feed	0x000C
+\n	New line	0x000A
+\r	Carriage return	0x000D
+\t	Horizontal tab	0x0009
+\v	Vertical tab	0x000B
+
+
+## String Interpolations
+Use string interpolation to improve the readability and maintainability of your code. String interpolation achieves the same results as the String.Format method, but improves ease of use and inline clarity.
+
+```Csharp
+var jh = (firstName: "Jupiter", lastName: "Hammon", born: 1711, published: 1761);
+Console.WriteLine($"{jh.firstName} {jh.lastName} was an African American poet born in {jh.born}.");
+Console.WriteLine($"He was first published in {jh.published} at the age of {jh.published - jh.born}.");
+Console.WriteLine($"He'd be over {Math.Round((2018d - jh.born) / 100d) * 100d} years old today.");
+
+// Output:
+// Jupiter Hammon was an African American poet born in 1711.
+// He was first published in 1761 at the age of 50.
+// He'd be over 300 years old today. 
+```
