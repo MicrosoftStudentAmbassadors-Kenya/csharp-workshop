@@ -17,16 +17,16 @@
 7. WebSockets & SignalR. 
 8. Cross-Site Request Forgery (CSRF) Protection.
 > Topic Covered : REferences: sor Far
-1. C# Core. (Not yet delivered)
-2. [Working with String](03_workingwithStrings\readme.md)
-3. [Project: working with string](03_workingwithStrings\02_workingwithCSVFile\Readme.md)
-4. Methods(Not yet delivered)
+1. C# Core.
+2. [Working with String](https://github.com/MicrosoftTechCommunity-DeKUT/2019-Oct-Sept_Basic-_CSharp_Learning/blob/development/03_workingwithStrings/readme.md)
+3. [Project: working with string](https://github.com/MicrosoftTechCommunity-DeKUT/2019-Oct-Sept_Basic-_CSharp_Learning/blob/development/03_workingwithStrings/02_workingwithCSVFile/Readme.md)
+4. Methods
 5. Object Oriented Programing (In progress)
 
 >## Next Topic in Line
-1.Abstract and Interfaces : a project
-2.Generics
-3.lambda expressions 
+1. Abstract and Interfaces : a project
+2. Generics
+3. lambda expressions 
 
 ## C# Topics To Learn
 1. C# core
