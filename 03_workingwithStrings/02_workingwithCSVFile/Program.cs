@@ -60,13 +60,21 @@ namespace _02_workingwithCSVFile
       //Console.WriteLine(teamsdatacopy);
       string[] firstteams = teamsdatacopy.Split($"{Environment.NewLine}");
 
-      // foreach (var firstteam in firstteams)
-      // {
-      //   // We are able to getDetails
-      //   Console.Write($"{firstteam} {Environment.NewLine}".Split(","));
-      // }
-     string Manchesterteams =FootballAnaylsis.PlayedWithAway("Man Chester", teamsdatacopy);
-     Console.WriteLine(Manchesterteams);
+      foreach (var firstteam in firstteams)
+      {
+        // We are able to getDetails
+        //Console.WriteLine(firstteam.Split(",")); return string[] objects
+        // we need to loop in the object ot get the expected results
+
+        foreach (var item in firstteam.Split(","))
+        {
+            System.Console.WriteLine(item);
+        }
+      }
+
+      
+    // string Manchesterteams =FootballAnaylsis.PlayedWithAway("Man Chester", teamsdatacopy);
+     //Console.WriteLine(Manchesterteams);
     }
   }
 
