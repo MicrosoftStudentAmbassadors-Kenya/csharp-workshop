@@ -20,7 +20,7 @@
 1. C# Core. (Not yet delivered)
 2. [Working with String](03_workingwithStrings\readme.md)
 3. [Project: working with string](03_workingwithStrings\02_workingwithCSVFile\Readme.md)
-4. [Bank account Project](06_BankaccountProject\Program.cs)
+4. [Bank account Project](https://github.com/MicrosoftTechCommunity-DeKUT/2019-Oct-Sept_Basic-_CSharp_Learning/blob/changestofolderstructure/06_BankaccountProject/Program.cs)
 4. Methods(Not yet delivered)
 5. Object Oriented Programing (In progress)
 
