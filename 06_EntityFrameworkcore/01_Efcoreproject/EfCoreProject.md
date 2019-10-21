@@ -64,4 +64,4 @@ Enabling connections resiliency sets Ef to automatically retr database operation
  ```
  If the retry limit is exceeded, Ef will throw a RetryLimitExceededException. Trapping for this error in your apps enables you to act accordinngly to the application requirements.
 
- ## Mixed Clien and Server Evaluations
+ ## Mixed Client and Server Evaluations 
