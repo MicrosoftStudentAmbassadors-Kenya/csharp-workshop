@@ -9,7 +9,7 @@ namespace Exercise__Git
 
             //Declare  variables
             int verificationCode, pintrial = 1;
-            string pin, userName, userNameLower, realPin = "0000",  savedBankccountNumber = "0100353689800", bankAccountNumber, recipients;
+            string pin, userName, userNameLower, realPin = "0000",  savedBankccountNumber = "aritel854", bankAccountNumber, recipients;
 
            // label
             rex:   
