@@ -1,9 +1,6 @@
+﻿using System;
 
-using System;
-using System.IO;
-
-
-namespace _05_Linq
+namespace Efcoreproject
 {
     class Program
     {
